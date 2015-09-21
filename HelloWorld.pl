@@ -1,5 +1,5 @@
-use strict;
-use warnings;
+#use strict;
+#use warnings;
 print "hello world";
 print "\n hello
 \tworld";
@@ -26,3 +26,5 @@ print "$str\n";
 # Backsalash non alpha-numeric including spaces.
 $str = "\QWelcome to tutorialspoint's family";
 print "$str\n";
+
+print " File "._FILE_."\n";
